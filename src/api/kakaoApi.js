@@ -12,7 +12,7 @@ const access_token_url =`https://kauth.kakao.com/oauth/token` //추가
 
 export const getKakaoLoginLink = () => {
   const kakaoURL = `${auth_code_path}?client_id=${rest_api_key}&redirect_uri=${redirect_uri}&response_type=code`;
-  console.log("getKakaoLoginLink 333")
+  console.log("kakaoURL: " + kakaoURL)
   return kakaoURL
 }
 

@@ -1,7 +1,7 @@
 import jwtAxios from "../util/jwtUtil"
 
-export const API_SERVER_HOST = 'http://localhost:8080'
-// export const API_SERVER_HOST = 'http://apiserver1-env.eba-nt6qp5a2.ap-northeast-2.elasticbeanstalk.com'
+// export const API_SERVER_HOST = 'http://localhost:8080'
+export const API_SERVER_HOST = 'http://apiserver1-env.eba-nt6qp5a2.ap-northeast-2.elasticbeanstalk.com'
 
 const prefix = `${API_SERVER_HOST}/api/todo`
 

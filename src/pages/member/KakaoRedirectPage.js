@@ -15,7 +15,8 @@ const KakaoRedirectPage = () => {
     getAccessToken(authCode).then(accessToken => {
       console.log("엑세스토큰" + accessToken)
       getMemberWithAccessToken(accessToken).then(memberInfo => {
-        console.log("------get Member with access token-------------")
+        console.log("------authCode아쓰코드-------------")
+        console.log(authCode)
         console.log(memberInfo)
 
         dispatch(login(memberInfo))
